@@ -7,6 +7,12 @@ function init() {
     const takeOffButton = document.getElementById("takeOff");
     const landingButton = document.getElementById("landing");
     const missionAbortButton = document.getElementById("abortMission");
+    const rocket = document.getElementById("rocket");
+    const rightButton = document.getElementById("rightButton");
+    const leftButton = document.getElementById("leftButton");
+    const upButton = document.getElementById("upButton");
+    const downButton = document.getElementById("downButton");
+
 
 
     //init loads default settings
@@ -45,6 +51,11 @@ function init() {
     missionAbortButton.addEventListener("click", abortConfirm);
 
     }//end of init function
+
+    function moveRocket() {
+        
+
+    }
     
 
     window.addEventListener("load", init);
